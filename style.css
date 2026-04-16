@@ -1,0 +1,100 @@
+* {
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: azure;
+    align-items: center;
+    
+}
+
+#navbar span {
+    font-size: 32px;
+    font-weight: 500px;
+    color: black;
+    text-transform: uppercase;
+}
+
+#navbar ul {
+    display: flex;
+    gap: 40px;
+
+}
+#navbar ul li {
+    display: flex;
+    text-decoration: none;
+
+}
+#navbar ul li a{
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+    color: black;
+    font-size: 16px;
+    font-weight: 400px;
+    letter-spacing: 1px;
+    
+}
+
+#navbar ul li a:hover {
+    color: brown;
+
+}
+ 
+#hero-left-section {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-around;
+    gap: 120px;
+    margin-left: 40px;
+    margin-right: 40px;
+    align-items: center;
+}
+
+#button{
+    gap: 25px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+    
+    
+   
+}
+#image-1{
+    height: 560px;
+    width: 560px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#dev{
+    margin-top: 20px;
+   background-color:#F1F4F6;
+   padding-bottom: 32px;
+   width: 100%;
+}
+
+.work-card {
+    width: 400px;
+    height: 450px;
+    border: 0.5px solid gray;
+    border-radius: 8px;
+}
+.work-align{
+    margin: 50px;
+}
+.work-card-footer{
+    margin-top: 80px;
+    background-color: #F1F5F9;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin: 10px;
+}
